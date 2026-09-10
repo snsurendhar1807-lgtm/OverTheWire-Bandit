@@ -12,11 +12,13 @@ ssh -p 2220 bandit.labs.overthewire.org -l bandit1
 ls
 
 cat ./-
-Command Explanation
+
+
+###Command Explanation
 ssh -p 2220 bandit.labs.overthewire.org -l bandit1
 Connects to the Bandit server as bandit1 using SSH on port 2220.
-ls
-Lists the files in the current directory.
+
+ls-Lists the files in the current directory.
 The output shows a file named -.
 
 cat ./-
