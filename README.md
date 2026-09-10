@@ -1,5 +1,5 @@
-# OverTheWire-Bandit
-# OverTheWire Bandit — Linux & Cybersecurity Learning
+## OverTheWire-Bandit
+# Linux & Cybersecurity Learning
 
 My practical journey through the OverTheWire Bandit wargame.
 
