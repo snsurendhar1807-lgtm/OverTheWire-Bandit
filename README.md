@@ -76,44 +76,31 @@ SSH
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 List Files
-ls
-ls -la
+ls  -   ls -la
 
-Read a File
-cat filename
+Read a File   -   cat filename
 
-Search for Text
-grep "keyword" filename
+Search for Text   -   grep "keyword" filename
 
-Find Files
-find . -type f
+Find Files   -   find . -type f
 
-Check File Type
-file filename
+Check File Type   -   file filename
 
-Extract Readable Strings
-strings filename
+Extract Readable Strings   -   strings filename
 
-Sort and Find Unique Lines
-sort filename | uniq -u
+Sort and Find Unique Lines   -   sort filename | uniq -u
 
-Base64 Decode
-base64 -d filename
+Base64 Decode   -   base64 -d filename
 
-ROT13 Decode
-tr 'A-Za-z' 'N-ZA-Mn-za-m' < filename
+ROT13 Decode   -   tr 'A-Za-z' 'N-ZA-Mn-za-m' < filename
 
-Netcat
-echo "password" | nc localhost 30000
+Netcat   -   echo "password" | nc localhost 30000
 
-SSL/TLS Connection
-openssl s_client -connect localhost:30001 -quiet
+SSL/TLS Connection   -   openssl s_client -connect localhost:30001 -quiet
 
-Secure Copy
-scp -P 2220 user@host:file destination
+Secure Copy   -   scp -P 2220 user@host:file destination
 
-SSH Using a Private Key
-ssh -i private_key user@host -p 2220
+SSH Using a Private Key   -   ssh -i private_key user@host -p 2220
 
 Important Security Practice
 
